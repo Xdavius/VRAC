@@ -1,0 +1,18 @@
+--- meson.build	2024-07-31 12:11:45.851876462 +0200
++++ meson.build.new	2024-07-31 12:12:21.397822467 +0200
+@@ -40,7 +40,7 @@
+ protonplus_deps = [
+     dependency('gtk4'),
+     dependency('glib-2.0'),
+-    dependency('libadwaita-1', version: '>= 1.4'),
++    dependency('libadwaita-1', version: '>= 1.2'),
+   	dependency('json-glib-1.0'),
+   	dependency('libsoup-3.0'),
+     dependency('gee-0.8'),
+@@ -57,4 +57,4 @@
+     sources,
+     dependencies: protonplus_deps,
+     install: true
+-)
+\ Pas de fin de ligne à la fin du fichier
++)
